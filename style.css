@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.topnav {
+  background-color: #174A5B;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  display: block;
+}
+
+.container-main {
+  position: relative;
+  width: 100%;
+}
+
+.container-main img {
+  width: 100%;
+  height: auto;
+}
+
+.container-main .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 12px 24px;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container-main .btn:hover {
+  background-color: black;
+}
